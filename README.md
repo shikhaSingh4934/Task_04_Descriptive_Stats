@@ -1,4 +1,4 @@
-\# 🧪 Task 4: Dataset Analysis Tool
+# 🧪 Task 4: Dataset Analysis Tool
 
 
 
@@ -6,7 +6,7 @@ This project provides a set of Python scripts for summarizing and visualizing st
 
 
 
-\## 📁 Project Structure
+## 📁 Project Structure
 
 Task 4/
 
@@ -44,11 +44,11 @@ Task 4/
 
 
 
-\## 🚀 How to Run
+## 🚀 How to Run
 
 
 
-\### 🔧 Requirements
+### 🔧 Requirements
 
 
 
@@ -59,35 +59,21 @@ Make sure you have Python 3.8+ installed. Install required packages:
 ```bash
 
 pip install pandas polars matplotlib chardet
-
-
-
 python pandas\_stats.py
-
-
-
 python polars\_stats.py
-
-
-
 python python\_stats.py
 
 
 📝 What Each Script Does
 
 * Loads a CSV file (with encoding detection)
-* Automatically unpacks nested dictionary columns (e.g., demographic\_distribution)
+* Automatically unpacks nested dictionary columns (e.g., demographic_distribution)
 * Detects numeric and categorical columns
 * Summarizes:
-
-&nbsp;	Count, Unique, Mean, Min, Max, Std Dev, Most Frequent
-
+  * Count, Unique, Mean, Min, Max, Std Dev, Most Frequent
 * Optionally generates:
-
-&nbsp;	Histograms for numeric
-
-&nbsp;	Bar charts for categorical
-
+  * Histograms for numeric
+  * Bar charts for categorical
 * Supports group-by summaries (optional input)
 
 
@@ -96,25 +82,12 @@ python python\_stats.py
 
 Place your .csv file inside the datasets/ folder (it’s ignored in GitHub).
 
-
-
 🖼️ Outputs
 
 * CSV summaries saved under:
-
-
-
-&nbsp;	pandas\_summaries/
-
-
-
-&nbsp;	polars\_summaries/
-
-
-
-&nbsp;	python\_summaries/
-
-
+  - `pandas_summaries/`
+  - `polars_summaries/`
+  - `python_summaries/`
 
 * Visualizations saved under plots/ or respective plot folders
 
