@@ -5,18 +5,18 @@ This project provides a set of Python scripts for summarizing and visualizing st
 ##📁 Project Structure
 
 Task 4/
-├── datasets/               # (Ignored by Git) Place your CSV files here
-├── pandas_stats.py         # Run using Pandas
-├── polars_stats.py         # Run using Polars
-├── python_stats.py         # Run using pure Python (no pandas/polars)
-├── README.md               # Instructions
-├── .gitignore              # Excludes datasets/ from repo
+├── datasets/ # (Ignored by Git) Place your CSV files here
+├── pandas_stats.py # Run using Pandas
+├── polars_stats.py # Run using Polars
+├── python_stats.py # Run using pure Python (no pandas/polars)
+├── README.md # Instructions
+├── .gitignore # Excludes datasets/ from repo
 └── output folders:
-    ├── pandas_summaries/
-    ├── polars_summaries/
-    ├── python_summaries/
-    ├── plots/
-    └── *_plots/
+├── pandas_summaries/
+├── polars_summaries/
+├── python_summaries/
+├── plots/
+└── *_plots/
 
 ---
 
