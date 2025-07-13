@@ -2,7 +2,7 @@
 
 This project provides a set of Python scripts for summarizing and visualizing structured datasets (CSV format) using **Pure Python**, **Pandas**, and **Polars**.
 
-## 📁 Project Structure
+##📁 Project Structure
 
 Task 4/
 ├── datasets/               # (Ignored by Git) Place your CSV files here
